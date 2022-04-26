@@ -1011,3 +1011,163 @@ Make sure 'FirstPersonInmate' has been compiled for  Play Event at Location
 [2022.04.26-09.22.46:682][507]LogFileHelpers: Saving map 'SewerDungeon' took 0.030
 [2022.04.26-09.22.46:696][507]AssetCheck: New page: Asset Save: SewerDungeon
 [2022.04.26-09.22.46:696][507]LogContentValidation: Display: Validating World /Game/Levels/SewerDungeon.SewerDungeon
+[2022.04.26-09.23.25:680][758]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.26-09.23.25:687][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.26-09.23.25:687][758]BlueprintLog: Warning: Blueprint failed to compile:  FirstPersonInmate
+[2022.04.26-09.23.25:688][758]LogCustomDialog: Dialog displayed:
+[2022.04.26-09.23.28:427][758]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2022.04.26-09.23.31:606][124]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonInmate.FirstPersonInmate
+[2022.04.26-09.23.32:357][124]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2022.04.26-09.23.33:269][124]LogSlate: Took 0.004030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.26-09.23.42:427][978]LogEditorTransaction: Undo Delete current selection
+[2022.04.26-09.23.43:650][ 55]BlueprintLog: New page: Compile FirstPersonInmate
+[2022.04.26-09.23.43:717][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.04.26-09.23.46:102][265]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.26-09.23.46:108][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.26-09.23.46:109][265]PIE: New page: PIE session: SewerDungeon (Apr 26, 2022, 1:23:46 PM)
+[2022.04.26-09.23.46:111][265]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.04.26-09.23.46:112][265]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.04.26-09.23.46:113][265]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_SewerDungeon
+[2022.04.26-09.23.46:132][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018306s)
+[2022.04.26-09.23.46:133][265]LogAIModule: Creating AISystem for world SewerDungeon
+[2022.04.26-09.23.46:133][265]LogPlayLevel: PIE: World Init took: (0.001592s)
+[2022.04.26-09.23.46:133][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SewerDungeon.SewerDungeon to /Game/Levels/UEDPIE_0_SewerDungeon.SewerDungeon (0.020320s)
+[2022.04.26-09.23.46:152][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.04.26-09.23.46:154][265]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.26-09.23.46:154][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.26-09.23.46:154][265]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.26-09.23.46:154][265]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.26-09.23.46:154][265]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.26-09.23.46:154][265]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.26-09.23.46:183][265]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.26-09.23.46:183][265]LogAudioMixer: Display: 1: FrontRight
+[2022.04.26-09.23.46:189][265]LogAudioMixer: Display: Using Audio Device Högtalare (2- Scarlett Solo USB)
+[2022.04.26-09.23.46:189][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.26-09.23.46:189][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.26-09.23.46:189][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.26-09.23.46:189][265]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.26-09.23.46:189][265]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.26-09.23.46:189][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.26-09.23.46:191][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.26-09.23.46:191][265]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.26-09.23.46:191][265]LogInit: FAudioDevice initialized.
+[2022.04.26-09.23.46:191][265]LogAudio: Display: Audio Device (ID: 2) registered with world 'SewerDungeon'.
+[2022.04.26-09.23.46:205][265]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.04.26-09.23.46:211][265]LogWorld: Bringing World /Game/Levels/UEDPIE_0_SewerDungeon.SewerDungeon up for play (max tick rate 0) at 2022.04.26-11.23.46
+[2022.04.26-09.23.46:211][265]LogWorld: Bringing up level for play took: 0.001393
+[2022.04.26-09.23.46:212][265]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.04.26-09.23.46:262][265]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.04.26-09.23.46:271][265]PIE: Server logged in
+[2022.04.26-09.23.46:274][265]PIE: Play in editor total start time 0.167 seconds.
+[2022.04.26-09.23.52:968][858]LogSlate: Window 'Message Log' being destroyed
+[2022.04.26-09.23.52:970][858]LogSlate: Window 'Message Log' being destroyed
+[2022.04.26-09.23.54:149][861]LogSlate: Window 'FirstPersonInmate' being destroyed
+[2022.04.26-09.23.54:151][861]LogSlate: Window 'FirstPersonInmate' being destroyed
+[2022.04.26-09.23.54:153][861]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.04.26-09.23.54:153][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.26-09.24.08:958][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.26-09.24.08:958][535]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_SewerDungeon
+[2022.04.26-09.24.08:959][535]LogWorld: UWorld::CleanupWorld for SewerDungeon, bSessionEnded=true, bCleanupResources=true
+[2022.04.26-09.24.08:959][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.26-09.24.08:968][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.26-09.24.08:986][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.26-09.24.09:009][535]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.26-09.24.09:010][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.26-09.24.09:011][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.26-09.24.09:013][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.26-09.24.09:053][535]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.04.26-09.24.09:088][536]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.04.26-09.29.03:239][232]LogContentBrowser: Attempting asset rename: Meshes -> StarterContentMeshes
+[2022.04.26-09.29.03:327][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/StarterContentMeshes/CubeMaterial" FILE="../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/CubeMaterial.uasset" SILENT=true
+[2022.04.26-09.29.03:333][232]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/CubeMaterial91DADD414251D775F0C1BFA0549EE925.tmp' to '../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/CubeMaterial.uasset'
+[2022.04.26-09.29.03:344][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/StarterContentMeshes/1M_Cube" FILE="../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/1M_Cube.uasset" SILENT=true
+[2022.04.26-09.29.03:350][232]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/1M_Cube73DC64B34B6C9A28802D399127A2ADEC.tmp' to '../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/1M_Cube.uasset'
+[2022.04.26-09.29.03:350][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/1M_Cube" FILE="../../../../../../Git/MobShooterGame/Content/Geometry/Meshes/1M_Cube.uasset" SILENT=true
+[2022.04.26-09.29.03:351][232]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/1M_Cube6CA89CC745562A48FB9D3BABE18AE81D.tmp' to '../../../../../../Git/MobShooterGame/Content/Geometry/Meshes/1M_Cube.uasset'
+[2022.04.26-09.29.03:361][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/StarterContentMeshes/1M_Cube_Chamfer" FILE="../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/1M_Cube_Chamfer.uasset" SILENT=true
+[2022.04.26-09.29.03:368][232]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/1M_Cube_ChamferA9C904D440663D416F74AA8CFF27F198.tmp' to '../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/1M_Cube_Chamfer.uasset'
+[2022.04.26-09.29.03:378][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/StarterContentMeshes/TemplateFloor" FILE="../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/TemplateFloor.uasset" SILENT=true
+[2022.04.26-09.29.03:387][232]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/TemplateFloorED4EC99F4D1867B544FF4DBCFA2C1F67.tmp' to '../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/TemplateFloor.uasset'
+[2022.04.26-09.29.03:486][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2022.04.26-09.29.03:505][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.03:518][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.03:539][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.04.26-09.29.03:553][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.04.26-09.29.03:588][232]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.26-09.29.03:588][232]LogContentValidation: Display: Validating Material /Game/Geometry/StarterContentMeshes/CubeMaterial.CubeMaterial
+[2022.04.26-09.29.03:588][232]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/StarterContentMeshes/1M_Cube.1M_Cube
+[2022.04.26-09.29.03:588][232]LogContentValidation: Display: Validating ObjectRedirector /Game/Geometry/Meshes/1M_Cube.1M_Cube
+[2022.04.26-09.29.03:588][232]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/StarterContentMeshes/TemplateFloor.TemplateFloor
+[2022.04.26-09.29.03:588][232]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/StarterContentMeshes/1M_Cube_Chamfer.1M_Cube_Chamfer
+[2022.04.26-09.29.11:847][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.18:239][213]LogSlate: Window 'Delete Assets' being destroyed
+[2022.04.26-09.29.27:879][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SewerDungeon" FILE="../../../../../../Git/MobShooterGame/Content/Levels/SewerDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.26-09.29.27:892][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.27:907][326]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/SewerDungeonD73965D24C5601C05D3CD8A7B7579404.tmp' to '../../../../../../Git/MobShooterGame/Content/Levels/SewerDungeon.umap'
+[2022.04.26-09.29.27:924][326]AssetCheck: New page: Asset Save: SewerDungeon
+[2022.04.26-09.29.27:924][326]LogContentValidation: Display: Validating World /Game/Levels/SewerDungeon.SewerDungeon
+[2022.04.26-09.29.39:987][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.04.26-09.29.40:983][703]LogSlate: Window 'Delete Assets' being destroyed
+[2022.04.26-09.29.41:057][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.04.26-09.29.41:080][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.04.26-09.29.41:094][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.56:111][496]LogContentBrowser: Attempting asset rename: Geometry -> LDK
+[2022.04.26-09.29.56:165][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LDK/StarterContentMeshes/CubeMaterial" FILE="../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/CubeMaterial.uasset" SILENT=true
+[2022.04.26-09.29.56:170][496]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/CubeMaterial0666016E441D38F4A4DB0683A57ABB82.tmp' to '../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/CubeMaterial.uasset'
+[2022.04.26-09.29.56:181][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LDK/StarterContentMeshes/1M_Cube" FILE="../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/1M_Cube.uasset" SILENT=true
+[2022.04.26-09.29.56:186][496]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/1M_CubeEED2F3D942832EED5E5B8BA9A9721006.tmp' to '../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/1M_Cube.uasset'
+[2022.04.26-09.29.56:186][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/StarterContentMeshes/1M_Cube" FILE="../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/1M_Cube.uasset" SILENT=true
+[2022.04.26-09.29.56:187][496]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/1M_Cube4D7CD72141C91ACD52E829BD9208ACB4.tmp' to '../../../../../../Git/MobShooterGame/Content/Geometry/StarterContentMeshes/1M_Cube.uasset'
+[2022.04.26-09.29.56:197][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LDK/StarterContentMeshes/TemplateFloor" FILE="../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/TemplateFloor.uasset" SILENT=true
+[2022.04.26-09.29.56:202][496]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/TemplateFloorA4AFCC9F4D7A76FA9765D2A012B75534.tmp' to '../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/TemplateFloor.uasset'
+[2022.04.26-09.29.56:213][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LDK/StarterContentMeshes/1M_Cube_Chamfer" FILE="../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/1M_Cube_Chamfer.uasset" SILENT=true
+[2022.04.26-09.29.56:219][496]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/1M_Cube_Chamfer65685C97444825621C18EB928F729B40.tmp' to '../../../../../../Git/MobShooterGame/Content/LDK/StarterContentMeshes/1M_Cube_Chamfer.uasset'
+[2022.04.26-09.29.56:299][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.04.26-09.29.56:315][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.56:328][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.56:350][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.04.26-09.29.56:364][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-09.29.56:395][496]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.26-09.29.56:395][496]LogContentValidation: Display: Validating Material /Game/LDK/StarterContentMeshes/CubeMaterial.CubeMaterial
+[2022.04.26-09.29.56:395][496]LogContentValidation: Display: Validating StaticMesh /Game/LDK/StarterContentMeshes/1M_Cube.1M_Cube
+[2022.04.26-09.29.56:395][496]LogContentValidation: Display: Validating StaticMesh /Game/LDK/StarterContentMeshes/TemplateFloor.TemplateFloor
+[2022.04.26-09.29.56:395][496]LogContentValidation: Display: Validating StaticMesh /Game/LDK/StarterContentMeshes/1M_Cube_Chamfer.1M_Cube_Chamfer
+[2022.04.26-09.29.56:395][496]LogContentValidation: Display: Validating ObjectRedirector /Game/Geometry/StarterContentMeshes/1M_Cube.1M_Cube
+[2022.04.26-09.29.59:187][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SewerDungeon" FILE="../../../../../../Git/MobShooterGame/Content/Levels/SewerDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.26-09.29.59:202][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.04.26-09.29.59:215][818]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/SewerDungeon128340364649E4BB4AFD7186A1A8919F.tmp' to '../../../../../../Git/MobShooterGame/Content/Levels/SewerDungeon.umap'
+[2022.04.26-09.29.59:233][818]AssetCheck: New page: Asset Save: SewerDungeon
+[2022.04.26-09.29.59:233][818]LogContentValidation: Display: Validating World /Game/Levels/SewerDungeon.SewerDungeon
+[2022.04.26-09.30.06:429][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.04.26-09.30.07:321][665]LogSlate: Window 'Delete Assets' being destroyed
+[2022.04.26-09.30.07:386][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.04.26-09.30.07:406][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.04.26-09.30.07:419][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.04.26-09.30.18:413][969]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2022.04.26-09.39.59:480][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.04.26-09.39.59:486][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SewerDungeon" FILE="../../../../../../Git/MobShooterGame/Saved/Autosaves/Game/Levels/SewerDungeon_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.26-09.39.59:498][128]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/SewerDungeon_Auto27F2A8AAA495C5B3BFB311EA1AFAC6EC0.tmp' to '../../../../../../Git/MobShooterGame/Saved/Autosaves/Game/Levels/SewerDungeon_Auto2.umap'
+[2022.04.26-09.39.59:499][128]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/SewerDungeon' took 0.034
+[2022.04.26-09.39.59:499][128]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2022.04.26-09.39.59:499][128]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonInmate] ([2] browsable assets)...
+[2022.04.26-09.39.59:523][128]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonInmate.FirstPersonInmate]
+[2022.04.26-09.39.59:523][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonInmate]
+[2022.04.26-09.39.59:583][128]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/FirstPersonInmate_Auto2DD98D6DE45F2FBAA8556419B06DBA728.tmp' to '../../../../../../Git/MobShooterGame/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonInmate_Auto2.uasset'
+[2022.04.26-09.39.59:583][128]LogFileHelpers: Auto-saving content packages took 0.084
+[2022.04.26-12.43.10:439][566]LogUObjectHash: Compacting FUObjectHashTables data took   9.82ms
+[2022.04.26-12.43.10:486][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SewerDungeon" FILE="../../../../../../Git/MobShooterGame/Content/Levels/SewerDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.26-12.43.10:503][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.26-12.43.10:529][566]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/SewerDungeon9DAB9BC54DD21997C44BAF94AD988F8A.tmp' to '../../../../../../Git/MobShooterGame/Content/Levels/SewerDungeon.umap'
+[2022.04.26-12.43.10:556][566]LogFileHelpers: Saving map 'SewerDungeon' took 0.071
+[2022.04.26-12.43.10:557][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonInmate" FILE="../../../../../../Git/MobShooterGame/Content/FirstPersonBP/Blueprints/FirstPersonInmate.uasset" SILENT=true
+[2022.04.26-12.43.10:606][566]LogSavePackage: Moving '../../../../../../Git/MobShooterGame/Saved/FirstPersonInmate0271CD5749874B27F1506A87BA621885.tmp' to '../../../../../../Git/MobShooterGame/Content/FirstPersonBP/Blueprints/FirstPersonInmate.uasset'
+[2022.04.26-12.43.10:663][566]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.26-12.43.10:663][566]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonInmate.FirstPersonInmate
+[2022.04.26-12.43.10:663][566]LogContentValidation: Display: Validating World /Game/Levels/SewerDungeon.SewerDungeon
