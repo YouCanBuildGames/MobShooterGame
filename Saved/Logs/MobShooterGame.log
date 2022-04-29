@@ -5760,3 +5760,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.29-07.10.18:534][754]LogPlayLevel: Display: Destroying online subsystem :Context_52
 [2022.04.29-07.11.47:580][257]LogSlate: Window 'Source Control Login' being destroyed
 [2022.04.29-07.11.56:829][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.04.29-07.19.55:499][556]SourceControl: Error: warning: could not open directory 'Content/FMOD/': No such file or directory
+[2022.04.29-07.20.25:531][  7]LogLinker: Warning: Failed to load '/Game/FMOD/Banks/Master': Can't find file.
+[2022.04.29-07.20.25:531][  7]LogLinker: Warning: Failed to load '/Game/FMOD/Banks/Master': Can't find file.
+[2022.04.29-07.20.25:531][  7]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FMOD/Banks/Master.Master'
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/Buses/Reverb': Can't find file.
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/Buses/Reverb': Can't find file.
+[2022.04.29-07.20.25:532][  7]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FMOD/Buses/Reverb.Reverb'
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/Events/Player_Gunfire': Can't find file.
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/Events/Player_Gunfire': Can't find file.
+[2022.04.29-07.20.25:532][  7]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FMOD/Events/Player_Gunfire.Player_Gunfire'
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/PrivateIntegrationData/AssetLookup': Can't find file.
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/PrivateIntegrationData/AssetLookup': Can't find file.
+[2022.04.29-07.20.25:532][  7]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FMOD/PrivateIntegrationData/AssetLookup.AssetLookup'
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/PrivateIntegrationData/BankLookup': Can't find file.
+[2022.04.29-07.20.25:532][  7]LogLinker: Warning: Failed to load '/Game/FMOD/PrivateIntegrationData/BankLookup': Can't find file.
+[2022.04.29-07.20.25:533][  7]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FMOD/PrivateIntegrationData/BankLookup.BankLookup'
